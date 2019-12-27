@@ -16,8 +16,8 @@ import asyncio
 
 
 async def main():
-    client = YuniteAPI.Client(token="Your Token here")
-    await client.add_token(guild_id=123456789, api_key='285e81ae-1ac8-4193-a075-1c54e5f37f01')  # Example token
+    client = YuniteAPI.Client()
+    await client.add_token(guild_id=123456789, api_key='Your api-key')  # Example token
     
 
 if __name__ == '__main__':

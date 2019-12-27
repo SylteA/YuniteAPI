@@ -17,7 +17,7 @@ import asyncio
 
 async def main():
     client = YuniteAPI.Client()
-    await client.add_token(guild_id=123123, api_key='Your api-key') # Add a api-key for that guild_id
+    await client.add_token(guild_id=123456789, api_key='Your api-key') # Add a api-key for that guild_id
     
 
 if __name__ == '__main__':
@@ -29,10 +29,15 @@ For future reference in this documentation: when referring to 'client' we refer 
 
 <h3>Using the wrapper</h3>
 <hr>
-<strong>await client.fetch_user(guild_id=123456789, user_id=123456789)</strong>
+
+```python
+await client.fetch_user(guild_id=123456789, user_id=123456789)
+```
 
 Fetch a single user id by discord or epic id
 
-<strong>await client.fetch_users(guild_id=123456789, user_ids=[123456789, 123456789])</strong>
+```python
+await client.fetch_users(guild_id=123456789, user_ids=[123456789, 987654321])
+```
 
 Fetch users in bulk by discord or epic id
