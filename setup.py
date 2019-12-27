@@ -1,13 +1,18 @@
 from setuptools import setup
+import sys
+import os
 import re
 
-with open('./requirements.txt') as f:
+BASE = sys.path[0]
+
+
+with open(os.path.join(BASE, 'requirements.txt')) as f:
     requirements = f.read().splitlines()
 
-with open('./YuniteAPI/__init__.py') as f:
+with open(os.path.join(BASE, 'YuniteAPI/__init__.py')) as f:
     version = re.search(r'^__version__\s*=\s*[\'"]([^\'"]*)[\'"]', f.read(), re.MULTILINE).group(1)
 
-with open('./README.md') as f:
+with open(os.path.join(BASE, 'README.md')) as f:
     readme = f.read()
 
 setup(name='YuniteAPI',
