@@ -27,4 +27,4 @@ if __name__ == '__main__':
 
 For more documentation please view the <a href="https://github.com/SylteA/YuniteAPI/blob/master/DOCUMENTATION.md">documentation</a>
 
-Want to support me? <a href="https://www.patreon.com/bePatron?u=22098744" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
+Want to support me? <a href="https://www.patreon.com/bePatron?u=22098744" data-patreon-widget-type="become-patron-button">Become a Patron!</a>
