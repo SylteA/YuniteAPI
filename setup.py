@@ -25,7 +25,7 @@ setup(name='YuniteAPI',
       long_description=readme,
       long_description_content_type='text/markdown',
       install_requires=requirements,
-      python_requires='>=3.7.5',
+      python_requires='>=3.7.3',
       keywords=['wrapper', 'Yunite', 'api'],
       classifiers=[
           'Development Status :: 5 - Production/Stable',
